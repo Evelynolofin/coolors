@@ -135,6 +135,16 @@ nav .nav1{
 
 }
 
+.box-1:hover{
+    img{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+
+}
+
 .navi .box-2{
     padding: 50px 10px;
     font-size: 15px;
@@ -174,6 +184,95 @@ nav .nav1{
     color: #00AEE5;
     transition: 500ms;
 }
+.box-1:hover .apText{
+    display: block;
+  animation: go 0.2s ease-in forwards;
+}
+
+.apText {
+    display: none;
+    text-align: center;
+    padding: 30px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.box-2:hover .apText{
+    display: block;
+  animation: go 0.2s ease-in forwards;
+}
+
+/*  */
+
+.box-2:hover{
+    img{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+
+}
+
+/*  */
+
+.box-3:hover .apText{
+    display: block;
+  animation: go 0.2s ease-in forwards;
+}
+
+.apText {
+    display: none;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 27px;
+}
+
+.box-3:hover{
+    img{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+
+}
+
+/*  */
+
+.box-4:hover .apText{
+    display: block;
+  animation: go 0.2s ease-in forwards;
+  padding: 30px;
+}
+
+.box-4:hover{
+    img{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+
+}
+
+/*  */
+.box-5:hover .apText{
+    display: block;
+  animation: go 0.2s ease-in forwards;
+}
+
+
+.box-5:hover{
+    img{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+
+}
+
 
 .navi .box-2:hover:hover{
     background-color: #D5F8EF;
@@ -198,6 +297,7 @@ nav .nav1{
     color: #DAAB00;
     transition: 500ms;
 }
+
 
 main{
     line-height: 20px;
@@ -258,4 +358,17 @@ span{
     font-size: 10px;
     font-weight:700;
     margin: 5px;
+}
+
+.whatsapplogo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 50px;
+    background-color: #464853;
+    margin-right: 30px;
+    border-radius: 20px;
+   img{
+    width: 80px;
+   }
 }
